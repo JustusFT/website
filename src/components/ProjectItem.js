@@ -3,10 +3,18 @@ import styled from 'styled-components'
 
 const ProjectItemContainer = styled.span`
   flex: 0 0 50%;
+
+  @media ( max-width: 640px ) {
+    flex-basis: 100%;
+  }
 `
 
 const MarginDiv = styled.div`
   margin: 2em;
+
+  @media ( max-width: 960px ) {
+    margin: 1em;
+  }
 `
 
 const ScaledImg = styled.img`
