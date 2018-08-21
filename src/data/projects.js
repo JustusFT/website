@@ -1,5 +1,10 @@
 export default [
   {
+    title: 'Not Quora',
+    description: 'A clone of the Q&A site Quora.',
+    url: 'https://whispering-plains-50835.herokuapp.com/'
+  },
+  {
     title: 'Image Host',
     description: 'A site where you can share images and create albums',
     url: 'https://aqueous-caverns-77669.herokuapp.com/'
