@@ -1,6 +1,13 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
+import styled from "styled-components";
+
+const Container = styled.div`
+  max-width: 960px;
+  margin: 0 auto;
+  font-family: sans-serif;
+`
 
 const Layout = ({ children, data }) => (
   <div>
@@ -11,9 +18,9 @@ const Layout = ({ children, data }) => (
         { name: 'keywords', content: 'sample, something' },
       ]}
     />
-    <div>
+    <Container>
       {children()}
-    </div>
+    </Container>
   </div>
 )
 
