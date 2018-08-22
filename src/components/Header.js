@@ -3,8 +3,13 @@ import styled from 'styled-components'
 
 const HeaderContainer = styled.div`
   display: flex;
-  height: 320px;
+  height: 480px;
   background-color: #00bfff;
+  margin: 1em 0;
+
+  @media (max-width: 992px) {
+    margin-top: 0;
+  }
 `
 
 const HeaderText = styled.div`
