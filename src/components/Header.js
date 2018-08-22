@@ -4,7 +4,7 @@ import styled from 'styled-components'
 const HeaderContainer = styled.div`
   display: flex;
   height: 480px;
-  background-color: #00bfff;
+  background-color: #66cbff;
   margin: 1em 0;
   position: relative;
 
@@ -14,7 +14,7 @@ const HeaderContainer = styled.div`
 `
 
 const HeaderText = styled.div`
-  background-color: white;
+  background-color: #ffffff;
   padding: 2em;
   align-self: center;
   text-align: center;
