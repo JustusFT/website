@@ -7,6 +7,7 @@ import styled from 'styled-components'
 
 const Content = styled.div`
   padding: 1em;
+  margin-bottom: 2em;
 `
 
 const IndexPage = ({ data }) => {
@@ -33,6 +34,7 @@ export const query = graphql`
           description
           url
           sourceUrl
+          ...ProjectItem_details
         }
       }
     }

@@ -3,15 +3,6 @@ module.exports = {
     title: 'Gatsby Default Starter',
   },
   plugins: [
-    'gatsby-plugin-react-helmet',
-    'gatsby-plugin-styled-components',
-    'gatsby-transformer-json',
-    {
-      resolve: 'gatsby-plugin-typography',
-      options: {
-        pathToConfigModule: 'src/util/typography',
-      }
-    },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -19,7 +10,16 @@ module.exports = {
         path: `${__dirname}/data/`,
       }
     },
+    'gatsby-plugin-react-helmet',
+    'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
-    'gatsby-plugin-sharp'
+    'gatsby-transformer-json',
+    'gatsby-plugin-styled-components',
+    {
+      resolve: 'gatsby-plugin-typography',
+      options: {
+        pathToConfigModule: 'src/util/typography',
+      }
+    }
   ]
 }
