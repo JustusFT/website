@@ -11,6 +11,7 @@ const ProjectItemContainer = styled.span`
 
 const MarginDiv = styled.div`
   margin: 2em;
+  margin-bottom: 1em;
 
   @media ( max-width: 960px ) {
     margin: 1em;
