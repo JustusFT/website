@@ -14,7 +14,12 @@ const HeaderText = styled.div`
 `
 
 const Header = () => (
-      <h2>Justus Tumacder</h2>
+  <HeaderContainer>
+    <HeaderText>
+      <h1>Justus Tumacder</h1>
+      <h4>Web Developer</h4>
+    </HeaderText>
+  </HeaderContainer>
 )
 
 export default Header
