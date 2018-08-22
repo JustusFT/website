@@ -1,6 +1,5 @@
 import React from 'react'
 
-import PROJECTS from '../data/projects'
 import ProjectList from '../components/ProjectList'
 import Header from '../components/Header'
 
@@ -10,14 +9,32 @@ const Content = styled.div`
   padding: 1em;
 `
 
-const IndexPage = () => (
-  <div>
-    <Header />
-    <Content>
-      <h2>Web projects</h2>
-      <ProjectList projects={PROJECTS} />
-    </Content>
-  </div>
-)
+const IndexPage = ({ data }) => {
+  const projects = data.allProjectsJson.edges.map(edge => edge.node)
+  return (
+    <div>
+      <Header />
+      <Content>
+        <h2>Web projects</h2>
+        <ProjectList projects={projects} />
+      </Content>
+    </div>
+  )
+}
 
 export default IndexPage
+
+export const query = graphql`
+  query GetAllProjects {
+    allProjectsJson {
+      edges {
+        node {
+          title
+          description
+          url
+          sourceUrl
+        }
+      }
+    }
+  }
+`
