@@ -14,6 +14,12 @@
     "image": "images/project_screenshots/image_host.png"
   },
   {
+    "title": "My Website",
+    "description": "You're on it right now! This site is built with Gatsby and React.",
+    "sourceUrl": "https://github.com/JustusFT/website",
+    "image": "images/project_screenshots/website.png"
+  },
+  {
     "title": "React Theremin",
     "description": "Move your mouse along the screen to produce sound. Based on the theremin, a musicical instrument.",
     "url": "https://justusft.github.io/react-theremin",
