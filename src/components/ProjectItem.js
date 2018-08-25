@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import Img from "gatsby-image";
+import marked from 'marked'
 
 const ProjectItemContainer = styled.span`
   flex: 0 0 50%;
@@ -32,7 +33,7 @@ const ProjectItem = (props) => {
           <Img {...project.image.childImageSharp} />
         </ImgContainer>
         <h3>{project.title}</h3>
-        <p>{project.description}</p>
+        <p dangerouslySetInnerHTML={{__html: marked(project.description)}}></p>
         {project.url && (
           <div><a href={project.url} target="_blank" rel="noopener noreferrer">View project</a></div>
         )}

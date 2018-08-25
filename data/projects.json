@@ -21,7 +21,7 @@
   },
   {
     "title": "React Theremin",
-    "description": "Move your mouse along the screen to produce sound. Based on the theremin, a musicical instrument.",
+    "description": "Move your mouse along the screen to produce sound. Based on the [theremin](https://en.wikipedia.org/wiki/Theremin), a musicical instrument.",
     "url": "https://justusft.github.io/react-theremin",
     "sourceUrl": "https://github.com/JustusFT/react-theremin",
     "image": "images/project_screenshots/react_theremin.png"
@@ -42,28 +42,28 @@
   },
   {
     "title": "Conway's Game of Life",
-    "description": "Cellular automaton.",
+    "description": "An implementation of the famous cellular automaton, [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life).",
     "url": "https://codepen.io/JustusFT/full/MovwKJ/",
     "sourceUrl": "https://codepen.io/JustusFT/pen/MovwKJ/",
     "image": "images/project_screenshots/conways_game_of_life.png"
   },
   {
     "title": "Tic tac toe",
-    "description": "Featuring an unbeatable computer.",
+    "description": "Featuring an unbeatable computer. The AI uses the [minimax algorithm](https://en.wikipedia.org/wiki/Minimax).",
     "url": "https://codepen.io/JustusFT/full/jrrNVX/",
     "sourceUrl": "https://codepen.io/JustusFT/pen/jrrNVX/",
     "image": "images/project_screenshots/tic_tac_toe.png"
   },
   {
     "title": "Pomodoro timer",
-    "description": "A timer that follows the pomodoro technique.",
+    "description": "A timer for users that follow the [pomodoro technique](https://en.wikipedia.org/wiki/Pomodoro_Technique).",
     "url": "https://codepen.io/JustusFT/full/qNZKjq/",
     "sourceUrl": "https://codepen.io/JustusFT/pen/qNZKjq/",
     "image": "images/project_screenshots/pomodoro_timer.png"
   },
   {
     "title": "Simon",
-    "description": "Classic memory game.",
+    "description": "An implementation of the classic memory game [Simon](https://en.wikipedia.org/wiki/Simon_(game)).",
     "url": "http://codepen.io/JustusFT/full/YWWrVZ",
     "sourceUrl": "http://codepen.io/JustusFT/pen/YWWrVZ",
     "image": "images/project_screenshots/simon.png"
