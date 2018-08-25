@@ -10,7 +10,7 @@ const typography = new Typography({
     styles: ['400', '700']
   }],
   headerFontFamily: ['Poppins', 'sans-serif'],
-  bodyFontFamily: ['Rubik', 'sans-serif'],
+  bodyFontFamily: ['Rubik', 'sans-serif']
 })
 
 export default typography

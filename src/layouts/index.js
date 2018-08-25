@@ -8,7 +8,6 @@ import './index.css';
 const Container = styled.div`
   max-width: 960px;
   margin: 0 auto;
-  font-family: sans-serif;
 `
 
 const Layout = ({ children, data }) => (
