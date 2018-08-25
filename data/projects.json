@@ -8,7 +8,7 @@
   },
   {
     "title": "Image Host",
-    "description": "A site where you can upload images and create albums",
+    "description": "A site where you can upload images and create albums.",
     "url": "https://aqueous-caverns-77669.herokuapp.com/",
     "sourceUrl": "https://github.com/JustusFT/image-host",
     "image": "images/project_screenshots/image_host.png"
@@ -21,7 +21,7 @@
   },
   {
     "title": "React Theremin",
-    "description": "Move your mouse along the screen to produce sound. Based on the [theremin](https://en.wikipedia.org/wiki/Theremin), a musicical instrument.",
+    "description": "Move your mouse along the screen to produce sound. Based on the [theremin](https://en.wikipedia.org/wiki/Theremin), a musical instrument.",
     "url": "https://justusft.github.io/react-theremin",
     "sourceUrl": "https://github.com/JustusFT/react-theremin",
     "image": "images/project_screenshots/react_theremin.png"
@@ -35,7 +35,7 @@
   },
   {
     "title": "Not Bitly",
-    "description": "A url shortener based on bitly.com",
+    "description": "A url shortener based on Bitly.",
     "url": "https://infinite-fortress-18426.herokuapp.com/",
     "sourceUrl": "https://github.com/JustusFT/bitly-clone",
     "image": "images/project_screenshots/not_bitly.png"
