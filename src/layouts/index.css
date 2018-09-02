@@ -2,7 +2,7 @@ a {
   color: #0094ff;
 }
 
-a:hover {
+a:hover, a:visited:hover {
   color: #ff0094;
 }
 

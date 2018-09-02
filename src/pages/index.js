@@ -10,6 +10,12 @@ const Content = styled.div`
   margin-bottom: 2em;
 `
 
+const TipBox = styled.div`
+  background-color: #FFCCCC;
+  margin: 1em 0;
+  padding: 1em;
+`
+
 const IndexPage = ({ data }) => {
   const projects = data.allProjectsJson.edges.map(edge => edge.node)
   return (
@@ -18,6 +24,10 @@ const IndexPage = ({ data }) => {
       <Content>
         <h2>Web projects</h2>
         <ProjectList projects={projects} />
+        <TipBox>
+          <div>Source code for my projects can be found on my <a href="https://github.com/JustusFT" rel="noopener noreferrer" target="_blank">github profile.</a></div>
+          <div>More projects & source code can be found on my <a href="https://codepen.io/JustusFT" rel="noopener noreferrer" target="_blank">codepen profile.</a></div>
+        </TipBox>
       </Content>
     </div>
   )

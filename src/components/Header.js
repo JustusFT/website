@@ -19,6 +19,10 @@ const HeaderText = styled.div`
   align-self: center;
   text-align: center;
   margin: auto;
+
+  @media (max-width: 992px) {
+    padding: 1.5em;
+  }
 `
 
 const Labels = styled.div`
@@ -52,6 +56,9 @@ const Header = () => (
     <Labels>
       <Label>
         <b>Email:</b><span><a href="mailto:justusft@gmail.com">JustusFT@gmail.com</a></span>
+      </Label>
+      <Label>
+        <b>Github:</b><span><a href="https://github.com/JustusFT" rel="noopener noreferrer" target="_blank">JustusFT</a></span>
       </Label>
       <Label>
         <b>Location:</b><span>Philippines</span>
