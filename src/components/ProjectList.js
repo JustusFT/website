@@ -1,6 +1,7 @@
+import PropTypes from 'prop-types'
 import React from 'react'
-import ProjectItem from './ProjectItem'
 import styled from 'styled-components'
+import ProjectItem from './ProjectItem'
 
 const ProjectListContainer = styled.div`
   display: flex;
@@ -11,9 +12,13 @@ const ProjectListContainer = styled.div`
 const ProjectList = ({ projects }) => (
   <ProjectListContainer>
     {projects.map(project => (
-      <ProjectItem project={project} />
+      <ProjectItem key={project.title} project={project} />
     ))}
   </ProjectListContainer>
 )
+
+ProjectList.propTypes = {
+  projects: PropTypes.arrayOf(PropTypes.object).isRequired,
+}
 
 export default ProjectList

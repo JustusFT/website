@@ -55,13 +55,26 @@ const Header = () => (
     </HeaderText>
     <Labels>
       <Label>
-        <b>Email:</b><span><a href="mailto:justusft@gmail.com">JustusFT@gmail.com</a></span>
+        <b>Email:</b>
+        <span>
+          <a href="mailto:justusft@gmail.com">JustusFT@gmail.com</a>
+        </span>
       </Label>
       <Label>
-        <b>Github:</b><span><a href="https://github.com/JustusFT" rel="noopener noreferrer" target="_blank">JustusFT</a></span>
+        <b>Github:</b>
+        <span>
+          <a
+            href="https://github.com/JustusFT"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            JustusFT
+          </a>
+        </span>
       </Label>
       <Label>
-        <b>Location:</b><span>Philippines</span>
+        <b>Location:</b>
+        <span>Philippines</span>
       </Label>
     </Labels>
   </HeaderContainer>

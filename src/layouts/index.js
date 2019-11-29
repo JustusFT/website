@@ -1,9 +1,8 @@
-import React from 'react'
 import PropTypes from 'prop-types'
+import React from 'react'
 import Helmet from 'react-helmet'
-import styled from "styled-components";
-
-import './index.css';
+import styled from 'styled-components'
+import './index.css'
 
 const Container = styled.div`
   max-width: 960px;
@@ -19,14 +18,13 @@ const Layout = ({ children, data }) => (
         { name: 'keywords', content: 'sample, something' },
       ]}
     />
-    <Container>
-      {children()}
-    </Container>
+    <Container>{children()}</Container>
   </div>
 )
 
 Layout.propTypes = {
   children: PropTypes.func,
+  data: PropTypes.object.isRequired,
 }
 
 export default Layout

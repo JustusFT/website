@@ -1,78 +1,62 @@
 [
   {
-    "title": "Not Quora",
-    "description": "A clone of the Q&A site Quora.",
-    "url": "https://whispering-plains-50835.herokuapp.com/",
-    "sourceUrl": "https://github.com/JustusFT/quora-clone-rails",
-    "image": "images/project_screenshots/not_quora.png"
+    "title": "Not Bitly",
+    "description":
+      "A URL shortener webapp. Features ability to keep track of your shortened link's data such as total visits and visits per day.",
+    "url": "https://not-bitly.herokuapp.com/",
+    "sourceUrl": "https://github.com/JustusFT/not-bitly",
+    "image": "images/project_screenshots/not_bilty_dashboard.png",
+    "tags": ["Express", "React", "PostgreSQL"]
   },
   {
-    "title": "Image Host",
-    "description": "A site where you can upload images and create albums.",
-    "url": "https://aqueous-caverns-77669.herokuapp.com/",
-    "sourceUrl": "https://github.com/JustusFT/image-host",
-    "image": "images/project_screenshots/image_host.png"
-  },
-  {
-    "title": "My Website",
-    "description": "You're on it right now! This site is built with Gatsby and React.",
-    "sourceUrl": "https://github.com/JustusFT/website",
-    "image": "images/project_screenshots/website.png"
+    "title": "Ultimate Tic Tac Toe",
+    "description":
+      "It looks like traditional tic-tac-toe, but it has much more depth with its strategic elements. You can play against the AI or locally with someone else. The AI uses [Monte Carlo tree search](https://en.wikipedia.org/wiki/Monte_Carlo_tree_search).",
+    "url": "https://justusft.github.io/ultimate_tic_tac_toe",
+    "sourceUrl": "https://github.com/JustusFT/ultimate_tic_tac_toe",
+    "image": "images/project_screenshots/ultimate_tic_tac_toe_web.png",
+    "tags": ["Rust", "WebAssembly", "React"]
   },
   {
     "title": "React Theremin",
-    "description": "Move your mouse along the screen to produce sound. Based on the [theremin](https://en.wikipedia.org/wiki/Theremin), a musical instrument.",
+    "description":
+      "A musical webapp where the sound produced is determined from the position of your mouse cursor. Based on the [theremin](https://en.wikipedia.org/wiki/Theremin), a musical instrument.",
     "url": "https://justusft.github.io/react-theremin",
     "sourceUrl": "https://github.com/JustusFT/react-theremin",
-    "image": "images/project_screenshots/react_theremin.png"
+    "image": "images/project_screenshots/react_theremin.png",
+    "tags": ["React", "Web Audio API"]
   },
   {
     "title": "Alphabet Soup",
-    "description": "Letters scattered around the screen arrange themselves to form messages.",
+    "description":
+      "Animated messages with css and javascript. Letters that are scattered around the screen arrange themselves to form messages.",
     "url": "https://codepen.io/JustusFT/full/ENLZGJ",
     "sourceUrl": "https://codepen.io/JustusFT/pen/ENLZGJ",
-    "image": "images/project_screenshots/alphabet_soup.png"
-  },
-  {
-    "title": "Not Bitly",
-    "description": "A url shortener based on Bitly.",
-    "url": "https://infinite-fortress-18426.herokuapp.com/",
-    "sourceUrl": "https://github.com/JustusFT/bitly-clone",
-    "image": "images/project_screenshots/not_bitly.png"
-  },
-  {
-    "title": "Conway's Game of Life",
-    "description": "An implementation of the famous cellular automaton, [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life).",
-    "url": "https://codepen.io/JustusFT/full/MovwKJ/",
-    "sourceUrl": "https://codepen.io/JustusFT/pen/MovwKJ/",
-    "image": "images/project_screenshots/conways_game_of_life.png"
-  },
-  {
-    "title": "Tic tac toe",
-    "description": "Featuring an unbeatable computer. The AI uses the [minimax algorithm](https://en.wikipedia.org/wiki/Minimax).",
-    "url": "https://codepen.io/JustusFT/full/jrrNVX/",
-    "sourceUrl": "https://codepen.io/JustusFT/pen/jrrNVX/",
-    "image": "images/project_screenshots/tic_tac_toe.png"
+    "image": "images/project_screenshots/alphabet_soup.png",
+    "tags": ["jQuery"]
   },
   {
     "title": "Pomodoro timer",
-    "description": "A timer for users that follow the [pomodoro technique](https://en.wikipedia.org/wiki/Pomodoro_Technique).",
+    "description":
+      "A timer for users that follow the [pomodoro technique](https://en.wikipedia.org/wiki/Pomodoro_Technique).",
     "url": "https://codepen.io/JustusFT/full/qNZKjq/",
     "sourceUrl": "https://codepen.io/JustusFT/pen/qNZKjq/",
     "image": "images/project_screenshots/pomodoro_timer.png"
   },
   {
-    "title": "Simon",
-    "description": "An implementation of the classic memory game [Simon](https://en.wikipedia.org/wiki/Simon_(game)).",
-    "url": "http://codepen.io/JustusFT/full/YWWrVZ",
-    "sourceUrl": "http://codepen.io/JustusFT/pen/YWWrVZ",
-    "image": "images/project_screenshots/simon.png"
+    "title": "Conway's Game of Life",
+    "description":
+      "An implementation of the famous cellular automaton, [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life).",
+    "url": "https://codepen.io/JustusFT/full/MovwKJ/",
+    "sourceUrl": "https://codepen.io/JustusFT/pen/MovwKJ/",
+    "image": "images/project_screenshots/conways_game_of_life.png"
   },
   {
-    "title": "Finger Battle",
-    "description": "Two player vs game where the faster tapper wins.",
-    "url": "http://justusft.github.io/finger-battle",
-    "sourceUrl": "https://github.com/JustusFT/finger-battle",
-    "image": "images/project_screenshots/finger_battle.png"
+    "title": "My Website",
+    "description":
+      "You're on it right now! This site is built with Gatsby and React.",
+    "sourceUrl": "https://github.com/JustusFT/website",
+    "image": "images/project_screenshots/website.png",
+    "tags": ["Gatsby", "React"]
   }
 ]

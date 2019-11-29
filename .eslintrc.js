@@ -1,7 +1,10 @@
 module.exports = {
-  "extends": ["eslint:recommended", "plugin:react/recommended"],
-  "parserOptions": {
-    "ecmaVersion": 6,
-    "sourceType": "module"
-  }
+  extends: ['eslint:recommended', 'plugin:react/recommended'],
+  globals: {
+    graphql: true,
+  },
+  parserOptions: {
+    ecmaVersion: 6,
+    sourceType: 'module',
+  },
 }

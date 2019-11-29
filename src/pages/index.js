@@ -1,9 +1,8 @@
+import PropTypes from 'prop-types'
 import React from 'react'
-
-import ProjectList from '../components/ProjectList'
-import Header from '../components/Header'
-
 import styled from 'styled-components'
+import Header from '../components/Header'
+import ProjectList from '../components/ProjectList'
 
 const Content = styled.div`
   padding: 1em;
@@ -11,7 +10,7 @@ const Content = styled.div`
 `
 
 const TipBox = styled.div`
-  background-color: #FFCCCC;
+  background-color: #ffcccc;
   margin: 1em 0;
   padding: 1em;
 `
@@ -25,12 +24,34 @@ const IndexPage = ({ data }) => {
         <h2>Web projects</h2>
         <ProjectList projects={projects} />
         <TipBox>
-          <div>Source code for my projects can be found on my <a href="https://github.com/JustusFT" rel="noopener noreferrer" target="_blank">github profile.</a></div>
-          <div>More projects & source code can be found on my <a href="https://codepen.io/JustusFT" rel="noopener noreferrer" target="_blank">codepen profile.</a></div>
+          <div>
+            Source code for my projects can be found on my{' '}
+            <a
+              href="https://github.com/JustusFT"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              github profile.
+            </a>
+          </div>
+          <div>
+            More projects & source code can be found on my{' '}
+            <a
+              href="https://codepen.io/JustusFT"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              codepen profile.
+            </a>
+          </div>
         </TipBox>
       </Content>
     </div>
   )
+}
+
+IndexPage.propTypes = {
+  data: PropTypes.object.isRequired,
 }
 
 export default IndexPage
@@ -44,6 +65,7 @@ export const query = graphql`
           description
           url
           sourceUrl
+          tags
           ...ProjectItem_details
         }
       }
