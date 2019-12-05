@@ -6,7 +6,7 @@
     "url": "https://not-bitly.herokuapp.com/",
     "sourceUrl": "https://github.com/JustusFT/not-bitly",
     "image": "images/project_screenshots/not_bilty_dashboard.png",
-    "tags": ["Express", "React", "PostgreSQL"]
+    "tags": ["Express", "React", "PostgreSQL", "Chart.js"]
   },
   {
     "title": "Ultimate Tic Tac Toe",
@@ -41,7 +41,8 @@
       "A timer for users that follow the [pomodoro technique](https://en.wikipedia.org/wiki/Pomodoro_Technique).",
     "url": "https://codepen.io/JustusFT/full/qNZKjq/",
     "sourceUrl": "https://codepen.io/JustusFT/pen/qNZKjq/",
-    "image": "images/project_screenshots/pomodoro_timer.png"
+    "image": "images/project_screenshots/pomodoro_timer.png",
+    "tags": ["jQuery", "Canvas"]
   },
   {
     "title": "Conway's Game of Life",
@@ -49,7 +50,8 @@
       "An implementation of the famous cellular automaton, [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life).",
     "url": "https://codepen.io/JustusFT/full/MovwKJ/",
     "sourceUrl": "https://codepen.io/JustusFT/pen/MovwKJ/",
-    "image": "images/project_screenshots/conways_game_of_life.png"
+    "image": "images/project_screenshots/conways_game_of_life.png",
+    "tags": ["React"]
   },
   {
     "title": "My Website",
