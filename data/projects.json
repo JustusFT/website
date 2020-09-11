@@ -6,7 +6,7 @@
     "url": "https://not-bitly.herokuapp.com/",
     "sourceUrl": "https://github.com/JustusFT/not-bitly",
     "image": "images/project_screenshots/not_bilty_dashboard.png",
-    "tags": ["Express", "React", "PostgreSQL", "Chart.js"]
+    "tags": ["Node.js", "Express", "React", "PostgreSQL", "Chart.js"]
   },
   {
     "title": "Ultimate Tic Tac Toe",
