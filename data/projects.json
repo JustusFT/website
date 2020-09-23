@@ -18,6 +18,14 @@
     "tags": ["Rust", "WebAssembly", "React"]
   },
   {
+    "title": "Not Quora",
+    "description": "A simple Q&A website based off of Quora.",
+    "url": "https://whispering-plains-50835.herokuapp.com",
+    "sourceUrl": "https://github.com/JustusFT/quora-clone-rails",
+    "image": "images/project_screenshots/not_quora.png",
+    "tags": ["Ruby on Rails", "jQuery", "Bootstrap", "Sass"]
+  },
+  {
     "title": "React Theremin",
     "description":
       "A musical webapp where the sound produced is determined from the position of your mouse cursor. Based on the [theremin](https://en.wikipedia.org/wiki/Theremin), a musical instrument.",
